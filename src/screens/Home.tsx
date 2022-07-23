@@ -111,11 +111,11 @@ export function Home() {
           <HStack w="full" mt={8} mb={4} justifyContent="space-between" alignItems="center">
 
           <Heading color="gray.100">
-            Meus Chamados
+            Solicitações
           </Heading>
 
           <Text color="gray.200"> 
-            4
+            {orders.length}
           
           </Text>
       </HStack>
